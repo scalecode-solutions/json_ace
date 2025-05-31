@@ -1,0 +1,22 @@
+name: json_ace_generator
+description: >-
+  Code generator for the JSON ACE package - Just Straightens Out Nonsense And Converts Everything.
+version: 0.1.0
+homepage: https://github.com/scalecode-solutions/json_ace/blob/main/README.md
+repository: https://github.com/scalecode-solutions/json_ace
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  analyzer: ^5.13.0
+  build: ^2.4.0
+  source_gen: ^1.3.2
+  json_ace_annotation: ^0.1.0
+  code_builder: ^4.5.0
+  dart_style: ^2.3.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.21.0
+  build_runner: ^2.4.0

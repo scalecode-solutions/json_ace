@@ -1,0 +1,19 @@
+name: json_ace
+description: >-
+  Just Straightens Out Nonsense And Converts Everything - A Dart package providing enhanced JSON conversion with flexible parsing, annotations, and advanced features.
+version: 0.1.0
+homepage: https://github.com/scalecode-solutions/json_ace/blob/main/README.md
+repository: https://github.com/scalecode-solutions/json_ace
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  json_ace_annotation: ^0.1.0
+  json_son: ^0.3.7  # Building on json_son as foundation
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.21.0
+  build_runner: ^2.4.0
+  json_ace_generator: ^0.1.0

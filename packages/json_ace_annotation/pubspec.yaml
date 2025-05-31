@@ -1,0 +1,16 @@
+name: json_ace_annotation
+description: >-
+  Annotation classes for the JSON ACE package - Just Straightens Out Nonsense And Converts Everything.
+version: 0.1.0
+homepage: https://github.com/scalecode-solutions/json_ace/blob/main/README.md
+repository: https://github.com/scalecode-solutions/json_ace
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  meta: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.21.0
