@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      json_ace_generator:ace_builder:
+        enabled: true
+
+builders:
+  ace_builder:
+    import: "package:json_ace_generator/json_ace_generator.dart"
+    builder_factories: ["aceBuilder"]
+    build_extensions: {".dart": [".ace.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
